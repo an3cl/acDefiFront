@@ -51,9 +51,11 @@ span.hopbutton {
   background-repeat: no-repeat;
   text-align: center;
   cursor: pointer;
-
-
 }
+  span.hopbutton:hover{
+    background-color: rgba(116,51,161,255);
+    color: #FFFFFF;
+  }
  .hopbutton img {
    margin-right: 1em;
    margin-top: 1%;
