@@ -1,0 +1,60 @@
+div.centerbase {
+
+  background-image: url('http://defi.alsacreations.net/bg.svg');
+  height: 500px;
+  max-width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+}
+
+div.boxquote div.base {
+  background-color: white;
+  border-radius: 15px;
+  flex: 0 0 auto;
+  padding: 10%;
+  margin: 10px;
+  font-size: 1.4em;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  margin-top: -13%;
+  color: rgb(58, 43, 68);
+
+
+}
+div.boxquote .quote {
+  background-color: rgba(0,0,0,0);
+  background-image: url('http://defi.alsacreations.net/quotes.svg');
+  background-repeat: no-repeat;
+  background-position: center top;
+  padding-top: 20%;
+  position: relative;
+  z-index: 2;
+}
+
+
+span.hopbutton {
+  border-radius: 60px;
+  background-color: rgba(244,244,244,255);
+  color: rgba(116,51,161,255);
+  font-size: inherit;
+  font-family: inherit;
+  padding: 2% 20%;
+  background-image: url('http://defi.alsacreations.net/plus.svg');
+  background-position-x : left 5%;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  cursor: pointer;
+
+
+}
+ .hopbutton img {
+   margin-right: 1em;
+   margin-top: 1%;
+ }
